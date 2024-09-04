@@ -26,21 +26,21 @@ const projects = ref([
     id: 1,
     title: 'Coche Eléctrico Autónomo',
     description: 'Un vehículo eléctrico con capacidades de conducción autónoma y cero emisiones.',
-    image: '/placeholder.svg?height=300&width=400'
+    image: '/images/images.jpg?height=300&width=400'
   },
   {
     id: 2,
     title: 'Aeronave de Hidrógeno',
     description:
       'Una aeronave propulsada por hidrógeno para vuelos de corta distancia sin emisiones.',
-    image: '/placeholder.svg?height=300&width=400'
+    image: '/images/watercar.jpg?height=300&width=400'
   },
   {
     id: 3,
     title: 'Bicicleta Eléctrica Plegable',
     description:
       'Una bicicleta eléctrica compacta y plegable para desplazamientos urbanos eficientes.',
-    image: '/placeholder.svg?height=300&width=400'
+    image: '/images/New Project.jpg'
   }
 ])
 </script>
