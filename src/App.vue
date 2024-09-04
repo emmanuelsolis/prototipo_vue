@@ -1,20 +1,14 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterView } from 'vue-router'
+import Header from '/src/components/Header.vue'
+import Footer from '/src/components/Footer.vue'
 </script>
 
 <template>
-  <header>
-    <div class="wrapper">
-      <nav>
-        <RouterLink to="/">Inicio</RouterLink>
-        <RouterLink to="/about">Nosotros</RouterLink>
-        <RouterLink to="/services">Servicios</RouterLink>
-        <RouterLink to="/contact">Contacto</RouterLink>
-      </nav>
-    </div>
-  </header>
+  <Header></Header>
 
   <RouterView />
+  <Footer></Footer>
 </template>
 
 <style scoped></style>
